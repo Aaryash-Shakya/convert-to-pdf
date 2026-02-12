@@ -1,0 +1,28 @@
+{
+  "name": "convert-to-pdf",
+  "version": "1.0.0",
+  "description": "Convert Office documents (.doc, .docx, .ppt, .pptx) to PDF using LibreOffice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check-libreoffice": "which libreoffice || echo 'LibreOffice not found. Please install it first.'"
+  },
+  "keywords": [
+    "pdf",
+    "converter",
+    "office",
+    "docx",
+    "pptx",
+    "libreoffice"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "libreoffice-convert": "^1.6.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
