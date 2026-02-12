@@ -56,7 +56,7 @@ Requires Node.js version 14.0.0 or higher.
 Run the included install script to automatically set up Node.js, LibreOffice, and project dependencies:
 
 ```bash
-./scripts/install.sh
+npm run setup
 ```
 
 ### Manual Installation
