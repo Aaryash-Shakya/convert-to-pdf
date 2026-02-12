@@ -3,9 +3,7 @@ node_modules/
 package-lock.json
 
 # Data directories (but keep the .gitkeep files)
-data/input/*
 data/output/*
-!data/input/.gitkeep
 !data/output/.gitkeep
 
 # Logs
